@@ -27,7 +27,7 @@ services:
       # BE SURE TO CHANGE THIS LINE BEFORE GOING TO PRODUCTION
       - ./grafana.env
     ports:
-      - 3001:3000
+      - 3002:3000
     depends_on:
       - influxdb
     restart: always
