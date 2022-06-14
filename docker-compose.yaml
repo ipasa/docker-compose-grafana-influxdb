@@ -14,8 +14,8 @@ services:
     restart: always
     privileged: true
 
-  grafana:
-    container_name: grafana
+  grafana-alerts:
+    container_name: grafana-alerts
     image: grafana/grafana-enterprise:9.0.0-beta3
     volumes:
       - ./grafana/etc:/etc/grafana:ro
